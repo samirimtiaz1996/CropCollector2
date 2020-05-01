@@ -131,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
                 continueAndNextBtn.setText ("Submit");
                 codeText.setVisibility (View.VISIBLE);
                 progressDialog.dismiss ();
+                sendUserToProfile ();
                 Toast.makeText (MainActivity.this,"Verification Code Has Been Sent",Toast.LENGTH_LONG).show ();
             }
         };
